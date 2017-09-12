@@ -3,14 +3,40 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {MdSidenavModule} from '@angular/material';
+import {MdToolbarModule} from '@angular/material';
+import {MdIconModule} from '@angular/material';
+import {MdButtonModule} from '@angular/material';
+import {MdDialogModule} from '@angular/material';
+import { AuthentificationComponent } from './authentification/authentification.component';
+import { FormsModule, ReactiveFormsModule }         from '@angular/forms';
+import {MdInputModule} from '@angular/material';
+import {MdGridListModule} from '@angular/material';
+
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AuthentificationComponent,
+
   ],
+  entryComponents: [AuthentificationComponent],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BrowserAnimationsModule,
+    MdSidenavModule,
+    MdToolbarModule,
+    MdIconModule,
+    MdButtonModule,
+    MdDialogModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MdInputModule,
+    MdGridListModule
   ],
   providers: [],
+  exports: [FormsModule, ReactiveFormsModule],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,0 +1,24 @@
+
+<form class="example-form">
+  <md-form-field class="example-full-width">
+  <input mdInput placeholder="Email" [formControl]="emailFormControl">
+    <md-error *ngIf="emailFormControl.hasError('pattern')">
+      Please enter a valid email address
+    </md-error>
+    <md-error *ngIf="emailFormControl.hasError('required')">
+      Email is <strong>required</strong>
+    </md-error>
+  </md-form-field>
+
+  <md-form-field>
+  <input mdInput placeholder="Password" type="Password" [formControl]="passFormControl">
+  	<md-error *ngIf="passFormControl.hasError('required')">
+      Password is <strong>required</strong>
+    </md-error>
+  </md-form-field>
+    
+</form>
+<button md-icon-button color="primary" type="submit" >
+Sign In
+<md-icon class="md-24" aria-label="Example icon-button with a heart icon">subdirectory_arrow_right</md-icon>
+</button>
