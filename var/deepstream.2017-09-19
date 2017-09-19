@@ -1,0 +1,58 @@
+{"event":"INFO","level":"info","message":"logger ready: no dependency description provided","timestamp":"2017-09-19T11:36:26.366Z"}
+{"event":"INFO","level":"info","message":"deepstream version: 3.0.1","timestamp":"2017-09-19T11:36:26.382Z"}
+{"event":"INFO","level":"info","message":"configuration file loaded from conf\\config.yml","timestamp":"2017-09-19T11:36:26.382Z"}
+{"event":"INFO","level":"info","message":"library directory set to: C:\\Users\\Expre\\Desktop\\projetweb\\blogfit\\lib","timestamp":"2017-09-19T11:36:26.382Z"}
+{"event":"INFO","level":"info","message":"storage ready: no storage connector specified","timestamp":"2017-09-19T11:36:26.382Z"}
+{"event":"INFO","level":"info","message":"cache ready: local cache","timestamp":"2017-09-19T11:36:26.382Z"}
+{"event":"INFO","level":"info","message":"authenticationHandler ready: none","timestamp":"2017-09-19T11:36:26.382Z"}
+{"event":"INFO","level":"info","message":"permissionHandler ready: valve permissions loaded from C:\\Users\\Expre\\Desktop\\projetweb\\blogfit\\conf\\permissions.yml","timestamp":"2017-09-19T11:36:26.397Z"}
+{"event":"INFO","level":"info","message":"listening for websocket connections on 0.0.0.0:6020/deepstream","timestamp":"2017-09-19T11:36:26.429Z"}
+{"event":"INFO","level":"info","message":"connectionEndpoint ready: WebSocket Connection Endpoint","timestamp":"2017-09-19T11:36:26.429Z"}
+{"event":"INFO","level":"info","message":"listening for HTTP connections on 0.0.0.0:8080","timestamp":"2017-09-19T11:36:26.429Z"}
+{"event":"INFO","level":"info","message":"connectionEndpoint ready: HTTP Connection Endpoint","timestamp":"2017-09-19T11:36:26.429Z"}
+{"event":"INFO","level":"info","message":"deepstream started","timestamp":"2017-09-19T11:36:26.429Z"}
+{"event":"INFO","level":"info","message":"logger ready: no dependency description provided","timestamp":"2017-09-19T11:43:46.857Z"}
+{"event":"INFO","level":"info","message":"deepstream version: 3.0.1","timestamp":"2017-09-19T11:43:46.861Z"}
+{"event":"INFO","level":"info","message":"configuration file loaded from conf\\config.yml","timestamp":"2017-09-19T11:43:46.863Z"}
+{"event":"INFO","level":"info","message":"library directory set to: C:\\Users\\Expre\\Desktop\\projetweb\\blogfit\\lib","timestamp":"2017-09-19T11:43:46.864Z"}
+{"event":"INFO","level":"info","message":"storage ready: no storage connector specified","timestamp":"2017-09-19T11:43:46.866Z"}
+{"event":"INFO","level":"info","message":"cache ready: local cache","timestamp":"2017-09-19T11:43:46.867Z"}
+{"event":"INFO","level":"info","message":"authenticationHandler ready: none","timestamp":"2017-09-19T11:43:46.868Z"}
+{"event":"INFO","level":"info","message":"permissionHandler ready: valve permissions loaded from C:\\Users\\Expre\\Desktop\\projetweb\\blogfit\\conf\\permissions.yml","timestamp":"2017-09-19T11:43:46.877Z"}
+{"event":"INFO","level":"info","message":"listening for websocket connections on 0.0.0.0:6020/deepstream","timestamp":"2017-09-19T11:43:46.917Z"}
+{"event":"INFO","level":"info","message":"connectionEndpoint ready: WebSocket Connection Endpoint","timestamp":"2017-09-19T11:43:46.919Z"}
+{"event":"INFO","level":"info","message":"listening for HTTP connections on 0.0.0.0:8080","timestamp":"2017-09-19T11:43:46.920Z"}
+{"event":"INFO","level":"info","message":"connectionEndpoint ready: HTTP Connection Endpoint","timestamp":"2017-09-19T11:43:46.921Z"}
+{"event":"INFO","level":"info","message":"deepstream started","timestamp":"2017-09-19T11:43:46.922Z"}
+{"event":"INFO","level":"info","message":"logger ready: no dependency description provided","timestamp":"2017-09-19T13:51:48.514Z"}
+{"event":"INFO","level":"info","message":"deepstream version: 3.0.1","timestamp":"2017-09-19T13:51:48.514Z"}
+{"event":"INFO","level":"info","message":"configuration file loaded from conf\\config.yml","timestamp":"2017-09-19T13:51:48.514Z"}
+{"event":"INFO","level":"info","message":"library directory set to: C:\\Users\\Expre\\Desktop\\projetweb\\blogfit\\lib","timestamp":"2017-09-19T13:51:48.514Z"}
+{"event":"INFO","level":"info","message":"storage ready: no storage connector specified","timestamp":"2017-09-19T13:51:48.514Z"}
+{"event":"INFO","level":"info","message":"cache ready: local cache","timestamp":"2017-09-19T13:51:48.514Z"}
+{"event":"INFO","level":"info","message":"authenticationHandler ready: none","timestamp":"2017-09-19T13:51:48.514Z"}
+{"event":"INFO","level":"info","message":"permissionHandler ready: valve permissions loaded from C:\\Users\\Expre\\Desktop\\projetweb\\blogfit\\conf\\permissions.yml","timestamp":"2017-09-19T13:51:48.530Z"}
+{"event":"INFO","level":"info","message":"listening for websocket connections on 0.0.0.0:6020/deepstream","timestamp":"2017-09-19T13:51:48.576Z"}
+{"event":"INFO","level":"info","message":"connectionEndpoint ready: WebSocket Connection Endpoint","timestamp":"2017-09-19T13:51:48.576Z"}
+{"event":"INFO","level":"info","message":"listening for HTTP connections on 0.0.0.0:8080","timestamp":"2017-09-19T13:51:48.576Z"}
+{"event":"INFO","level":"info","message":"connectionEndpoint ready: HTTP Connection Endpoint","timestamp":"2017-09-19T13:51:48.576Z"}
+{"event":"INFO","level":"info","message":"deepstream started","timestamp":"2017-09-19T13:51:48.576Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-19T14:00:13.438Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-19T14:00:21.223Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-19T14:04:02.130Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-19T14:04:03.602Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"null","timestamp":"2017-09-19T14:06:28.899Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-19T14:06:30.523Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"null","timestamp":"2017-09-19T14:08:28.584Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-19T14:08:32.068Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-19T14:08:37.777Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-19T14:10:47.418Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-19T14:10:49.194Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-19T14:10:50.641Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-19T14:11:12.348Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-19T14:11:22.886Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-19T14:11:34.619Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-19T14:13:47.983Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-19T14:13:51.204Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-19T14:13:56.369Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-19T14:14:09.503Z"}

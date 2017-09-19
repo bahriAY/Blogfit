@@ -3,7 +3,7 @@
    <span class="spacer"></span>
   <md-icon>fitness_center</md-icon><span>BlogFitness</span>
    <span class="spacer"></span>
-  <button md-raised-button color="warn" class="menuslide" type="button" md-button (click)="openDialog()">Connexion</button>
+  <button md-raised-button color="warn" class="menuslide" type="button" md-button (click)="openDialog()">Connexion(Admin)</button>
 </md-toolbar>
 
 <md-sidenav-container>
@@ -19,18 +19,17 @@
       <md-grid-tile id="managepanel" colspan="7" rowspan="1">2</md-grid-tile>
       <md-grid-tile id="wallpanel" colspan="7" rowspan="8">2</md-grid-tile>
       <md-grid-tile id="chatpanel" colspan="3" rowspan="5">
-        <app-chat></app-chat>
+        
+        <div class="compose">
+          <input type="text" [(ngModel)]="text">
+          <button (click)="addChat()">Send</button>
+        </div>
+        <div class="chats">
+          <p *ngFor="let chat of chatArray"><strong>{{chat.username}}: </strong> {{chat.text}}</p>
+        </div>
+
+        
       </md-grid-tile>
-      <!-- Génération automatique de tiles -->
-      <!--
-    <md-grid-tile
-      *ngFor="let tile of tiles"
-      [colspan]="tile.cols"
-      [rowspan]="tile.rows"
-      [style.background]="tile.color">
-      {{tile.text}}
-    </md-grid-tile>
-       -->
     </md-grid-list>
   </div>
 

@@ -14,6 +14,7 @@ import { FormsModule, ReactiveFormsModule }         from '@angular/forms';
 import {MdInputModule} from '@angular/material';
 import {MdGridListModule} from '@angular/material';
 import { ChatComponent } from './chat/chat.component';
+import { DsService } from './services/ds.service';
 
 
 @NgModule({
@@ -37,7 +38,7 @@ import { ChatComponent } from './chat/chat.component';
     MdInputModule,
     MdGridListModule
   ],
-  providers: [],
+  providers: [DsService],
   exports: [FormsModule, ReactiveFormsModule],
   bootstrap: [AppComponent]
 })
