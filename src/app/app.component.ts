@@ -19,10 +19,12 @@ constructor(public dialog: MdDialog) {}
 });
   }
 
- // Grid 
+  // Generation automatique de tiles
+ /* Grid 
     tiles = [
-    {text: 'Admin', cols: 4, rows: 2, color: 'gray'},
-    {text: 'Mur', cols: 3, rows: 20, color: '#DDBDF1'},
-    {text: 'Messagerie instantannée', cols: 1, rows: 20, color: 'lightgreen'}
+    {text: 'admin panel', cols: 4, rows: 2, color: 'gray'},
+    {text: 'posts', cols: 3, rows: 20.4, color: '#DDBDF1'},
+    {text: 'app-chat', cols: 1, rows: 20.4, color: 'lightgreen'}
   ];
+ */
 }

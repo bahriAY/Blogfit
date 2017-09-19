@@ -14,14 +14,20 @@
 
   <!-- Contenu de la page -->
   <div >
-    <md-grid-list cols="4" rowHeight="25px">
+    <md-grid-list cols="2" rowHeight="2:1" >
+      <md-grid-tile id="categoriepanel">1</md-grid-tile>
+      <md-grid-tile id="wallpanel" rowspan="2">2</md-grid-tile>
+      <md-grid-tile id="chatpanel">3</md-grid-tile>
+      <!-- Génération automatique de tiles -->
+      <!--
     <md-grid-tile
       *ngFor="let tile of tiles"
       [colspan]="tile.cols"
       [rowspan]="tile.rows"
       [style.background]="tile.color">
-    {{tile.text}}
+      {{tile.text}}
     </md-grid-tile>
+       -->
     </md-grid-list>
   </div>
 

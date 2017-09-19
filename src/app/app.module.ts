@@ -13,12 +13,14 @@ import { AuthentificationComponent } from './authentification/authentification.c
 import { FormsModule, ReactiveFormsModule }         from '@angular/forms';
 import {MdInputModule} from '@angular/material';
 import {MdGridListModule} from '@angular/material';
+import { ChatComponent } from './chat/chat.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     AuthentificationComponent,
+    ChatComponent,
 
   ],
   entryComponents: [AuthentificationComponent],
