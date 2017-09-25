@@ -427,3 +427,185 @@
 {"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T20:46:06.136Z"}
 {"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T20:46:07.282Z"}
 {"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T20:46:49.019Z"}
+{"event":"INFO","level":"info","message":"logger ready: no dependency description provided","timestamp":"2017-09-25T20:55:14.680Z"}
+{"event":"INFO","level":"info","message":"deepstream version: 3.0.1","timestamp":"2017-09-25T20:55:14.697Z"}
+{"event":"INFO","level":"info","message":"configuration file loaded from conf\\config.yml","timestamp":"2017-09-25T20:55:14.701Z"}
+{"event":"INFO","level":"info","message":"library directory set to: C:\\Users\\Expre\\Desktop\\projetweb\\blogfit\\lib","timestamp":"2017-09-25T20:55:14.703Z"}
+{"event":"INFO","level":"info","message":"storage ready: no storage connector specified","timestamp":"2017-09-25T20:55:14.707Z"}
+{"event":"INFO","level":"info","message":"cache ready: local cache","timestamp":"2017-09-25T20:55:14.709Z"}
+{"event":"INFO","level":"info","message":"authenticationHandler ready: none","timestamp":"2017-09-25T20:55:14.711Z"}
+{"event":"INFO","level":"info","message":"permissionHandler ready: valve permissions loaded from C:\\Users\\Expre\\Desktop\\projetweb\\blogfit\\conf\\permissions.yml","timestamp":"2017-09-25T20:55:14.742Z"}
+{"event":"INFO","level":"info","message":"listening for websocket connections on 0.0.0.0:6020/deepstream","timestamp":"2017-09-25T20:55:14.858Z"}
+{"event":"INFO","level":"info","message":"connectionEndpoint ready: WebSocket Connection Endpoint","timestamp":"2017-09-25T20:55:14.860Z"}
+{"event":"INFO","level":"info","message":"listening for HTTP connections on 0.0.0.0:8080","timestamp":"2017-09-25T20:55:14.863Z"}
+{"event":"INFO","level":"info","message":"connectionEndpoint ready: HTTP Connection Endpoint","timestamp":"2017-09-25T20:55:14.866Z"}
+{"event":"INFO","level":"info","message":"deepstream started","timestamp":"2017-09-25T20:55:14.869Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T20:55:24.156Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T20:56:12.471Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T20:56:12.631Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"null","timestamp":"2017-09-25T20:56:14.765Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T20:57:19.812Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T20:57:19.822Z"}
+{"event":"MULTIPLE_SUBSCRIPTIONS","level":"warn","message":"repeat supscription to \"chats\" by open","timestamp":"2017-09-25T20:57:19.829Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:00:14.125Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:00:14.134Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:00:17.191Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:00:17.349Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:00:17.751Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:00:17.914Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:01:33.510Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:01:33.728Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:01:37.913Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:01:38.121Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:01:38.989Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:01:39.073Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:03:43.347Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:03:43.360Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:04:33.179Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:04:34.406Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:04:34.533Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:04:35.213Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:04:36.177Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:05:32.512Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:05:34.491Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:05:35.713Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:06:08.616Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:06:10.775Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:06:11.836Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:08:13.851Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:08:17.926Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:08:18.480Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:08:52.936Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:08:55.191Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:08:55.422Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:09:27.214Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:09:29.602Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:09:37.365Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:09:54.534Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:09:56.751Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:09:58.538Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:10:32.527Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:10:32.703Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:12:57.474Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:13:02.841Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:13:05.650Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:13:05.774Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:13:06.346Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:13:06.556Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:14:05.552Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:14:05.583Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:14:08.638Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:14:10.246Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:14:11.252Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:14:11.348Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:14:26.312Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:14:26.538Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:14:29.143Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:14:29.749Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:14:31.266Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:14:31.443Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:15:43.523Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:15:43.539Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:15:46.446Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:15:47.380Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:15:47.623Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:15:48.034Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:17:30.319Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:17:30.332Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:17:33.554Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:17:34.902Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:17:35.184Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:17:35.434Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:17:54.273Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:17:54.333Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:17:56.810Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:17:58.074Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:17:58.267Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:17:58.423Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:18:41.159Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:18:41.177Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:18:44.306Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:18:45.406Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"null","timestamp":"2017-09-25T21:18:45.626Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:18:46.067Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:19:51.599Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:19:56.810Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:19:57.023Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:21:20.453Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:21:23.309Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:21:23.424Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:23:16.222Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:23:19.454Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:23:19.613Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:24:03.734Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:24:05.996Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:24:06.089Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:24:20.336Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:24:22.466Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:24:23.718Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:24:55.127Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:24:58.760Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:25:00.527Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:25:50.513Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:25:52.921Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:25:54.631Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:26:19.703Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:26:22.549Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:26:24.108Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:27:03.606Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:27:05.897Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:27:07.788Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:27:56.174Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:27:58.500Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:27:58.601Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:28:05.455Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:28:07.840Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:28:08.880Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:28:48.867Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:28:51.402Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:28:52.560Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:29:08.257Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:29:12.892Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:29:13.149Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:29:44.817Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:29:47.377Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:29:49.300Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:30:18.774Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:30:21.863Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:30:23.415Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:32:12.661Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:32:15.743Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:32:17.795Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:33:34.826Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:33:38.296Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:33:39.926Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:34:43.728Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:34:47.086Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:34:48.193Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:37:01.025Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:37:03.719Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:37:05.765Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:37:52.194Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:37:54.341Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:37:56.474Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:39:27.267Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:39:29.846Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:39:31.121Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:40:07.588Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:40:09.823Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:40:11.252Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:40:29.762Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:40:32.442Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:40:33.962Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:41:32.437Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:41:35.232Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:41:36.595Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:41:55.529Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:42:14.513Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:42:15.492Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:42:29.370Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:42:31.853Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:42:36.645Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-25T21:42:52.797Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-25T21:42:56.467Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-25T21:46:13.386Z"}

@@ -20,10 +20,10 @@ md-sidenav {
 	background: gray;
 }
 #wallpanel {
-	background: #DDBDF1;
+	background: white;
 }
 #chatpanel {
-	background: #DCDCDC ;
+	background: #E6E6FA;
 }
 #managepanel {
 	background: orange;
@@ -32,9 +32,11 @@ md-sidenav {
 .ZoneMsg {
 	overflow: auto;
 	max-height: 250px;
+	min-height: 100px;
+	min-width: 100px;
 	position: relative;
-	height: 250px;
-	width: 400px;
+	height: 100%;
+	width: 100%;
 	background-color: #F5FFFA;
 	border-radius: 5px;
 

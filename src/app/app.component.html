@@ -22,10 +22,10 @@
 
 
       <md-grid-tile id="wallpanel" colspan="7" rowspan="8">
-        
-
+        <div style="height: 100%; width: 100%;">
+          <app-wall></app-wall>
+        </div>
       </md-grid-tile>
-
 
 
 
@@ -49,7 +49,7 @@
           <tr style="align-content: center;">
             <div style="position: relative;">
             <div>
-            <input style="width: 300px;" maxlength="30" type="text" [(ngModel)]="text">
+            <input style="width: 60%;" maxlength="30" type="text" [(ngModel)]="text">
             <button  (click)="addChat()">Envoi</button>
             </div>
             </div>

@@ -17,6 +17,8 @@ import { ChatComponent } from './chat/chat.component';
 import { DsService } from './services/ds.service';
 import {MdChipsModule} from '@angular/material';
 import {MdListModule} from '@angular/material';
+import {MdTabsModule} from '@angular/material';
+import { WallComponent } from './wall/wall.component';
 
 
 @NgModule({
@@ -24,6 +26,7 @@ import {MdListModule} from '@angular/material';
     AppComponent,
     AuthentificationComponent,
     ChatComponent,
+    WallComponent,
 
   ],
   entryComponents: [AuthentificationComponent],
@@ -40,7 +43,8 @@ import {MdListModule} from '@angular/material';
     MdInputModule,
     MdGridListModule,
     MdChipsModule,
-    MdListModule
+    MdListModule,
+    MdTabsModule
   ],
   providers: [DsService],
   exports: [FormsModule, ReactiveFormsModule],
