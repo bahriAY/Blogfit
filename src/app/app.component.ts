@@ -44,7 +44,7 @@ constructor(public dialog: MdDialog, private ds: DsService) {}
     // window prompt and use 'anonymous' for
     // null or invalid response
     const defaultUsername = 'anonymous';
-    const username = window.prompt('Please enter your username', defaultUsername);
+    const username = window.prompt('Veuillez entrer votre surnom pour le chat instantannée:', defaultUsername);
     
     this.username = username || defaultUsername
     // Login without credentials

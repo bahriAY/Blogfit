@@ -15,6 +15,8 @@ import {MdInputModule} from '@angular/material';
 import {MdGridListModule} from '@angular/material';
 import { ChatComponent } from './chat/chat.component';
 import { DsService } from './services/ds.service';
+import {MdChipsModule} from '@angular/material';
+import {MdListModule} from '@angular/material';
 
 
 @NgModule({
@@ -36,7 +38,9 @@ import { DsService } from './services/ds.service';
     FormsModule,
     ReactiveFormsModule,
     MdInputModule,
-    MdGridListModule
+    MdGridListModule,
+    MdChipsModule,
+    MdListModule
   ],
   providers: [DsService],
   exports: [FormsModule, ReactiveFormsModule],

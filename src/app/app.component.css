@@ -23,8 +23,19 @@ md-sidenav {
 	background: #DDBDF1;
 }
 #chatpanel {
-	background: lightgreen;
+	background: #DCDCDC ;
 }
 #managepanel {
 	background: orange;
+}
+
+.ZoneMsg {
+	overflow: auto;
+	max-height: 250px;
+	position: relative;
+	height: 250px;
+	width: 400px;
+	background-color: #F5FFFA;
+	border-radius: 5px;
+
 }

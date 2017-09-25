@@ -17,19 +17,56 @@
     <md-grid-list cols="10" rowHeight="2:1" >
       <md-grid-tile id="categoriepanel" colspan="3" rowspan="4">1</md-grid-tile>
       <md-grid-tile id="managepanel" colspan="7" rowspan="1">2</md-grid-tile>
-      <md-grid-tile id="wallpanel" colspan="7" rowspan="8">2</md-grid-tile>
-      <md-grid-tile id="chatpanel" colspan="3" rowspan="5">
+
+
+
+
+      <md-grid-tile id="wallpanel" colspan="7" rowspan="8">
         
-        <div class="compose">
-          <input type="text" [(ngModel)]="text">
-          <button (click)="addChat()">Send</button>
-        </div>
+
+      </md-grid-tile>
+
+
+
+
+      <md-grid-tile id="chatpanel" colspan="3" rowspan="5">
+
+        <table>
+
+          <tr>
+            <div class="ZoneMsg">
+            <md-chip-list class="mat-chip-list-stacked">
+            <md-chip style="background-color: #E6E6FA;" *ngFor="let chat of chatArray">
+            <strong>{{chat.username}}: </strong>
+                    {{chat.text}}
+            </md-chip>
+            </md-chip-list>
+            </div>
+          </tr>
+
+        <md-divider></md-divider>
+
+          <tr style="align-content: center;">
+            <div style="position: relative;">
+            <div>
+            <input style="width: 300px;" maxlength="30" type="text" [(ngModel)]="text">
+            <button  (click)="addChat()">Envoi</button>
+            </div>
+            </div>
+          </tr>
+
+        </table>
+<!--
         <div class="chats">
           <p *ngFor="let chat of chatArray"><strong>{{chat.username}}: </strong> {{chat.text}}</p>
         </div>
-
-        
+-->
       </md-grid-tile>
+
+
+
+
+
     </md-grid-list>
   </div>
 
