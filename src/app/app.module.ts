@@ -19,6 +19,7 @@ import {MdChipsModule} from '@angular/material';
 import {MdListModule} from '@angular/material';
 import {MdTabsModule} from '@angular/material';
 import { WallComponent } from './wall/wall.component';
+import { ArticleComponent } from './article/article.component';
 
 
 @NgModule({
@@ -27,9 +28,10 @@ import { WallComponent } from './wall/wall.component';
     AuthentificationComponent,
     ChatComponent,
     WallComponent,
+    ArticleComponent,
 
   ],
-  entryComponents: [AuthentificationComponent],
+  entryComponents: [AuthentificationComponent, ArticleComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
@@ -44,7 +46,8 @@ import { WallComponent } from './wall/wall.component';
     MdGridListModule,
     MdChipsModule,
     MdListModule,
-    MdTabsModule
+    MdTabsModule,
+    
   ],
   providers: [DsService],
   exports: [FormsModule, ReactiveFormsModule],

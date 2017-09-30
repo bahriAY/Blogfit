@@ -1,33 +1,18 @@
         <md-tab-group>
 
-          <md-tab label="Prise de masse">
+          <md-tab label="Prise de masse" >
 
-			<md-list>
+			<md-list >
 
 			  
-			  <md-list-item>
-			  	<h2 md-header>NOM de l'article</h2>
-			    <md-icon md-list-icon>folder</md-icon>
-			    <p md-line>DESCRIPTION</p>
-			    <p md-line>DATE</p>
-			    <md-divider></md-divider>
-			  </md-list-item>
-
-			  <md-list-item>
-			  	<h3 md-header>NOM de l'article</h3>
-			    <md-icon md-list-icon>folder</md-icon>
-			    <h4 md-line>DESCRIPTION</h4>
-			    <p md-line>DATE</p>
-			    <md-divider></md-divider>
-			  </md-list-item>	
-
-			  <md-list-item>
-			  	<h3 md-header>NOM de l'article</h3>
-			    <md-icon md-list-icon>folder</md-icon>
-			    <h4 md-line>DESCRIPTION</h4>
-			    <p md-line>DATE</p>
-			    <md-divider></md-divider>
-			  </md-list-item>					
+			  <md-list-item (click)="openArticle()" style="background-color: #B39DDB;border-style: groove;">
+			  	<!-- Photo miniature de l'article -->
+			    <p md-line><img src="assets/images/recup.jpg"  height="40" width="50"></p>
+			  	<!-- Titre de l'article -->
+			  	<h2 md-header>{{titre}}</h2>
+			    <!-- Date -->
+			    <p md-line>{{date}}</p>
+			  </md-list-item>			
 <!--
 			  <h3 md-subheader>NOM de l'article</h3>
 			  <md-list-item *ngFor="let folder of folders">
@@ -40,12 +25,40 @@
 			</md-list>
           </md-tab>
 
+
           <md-tab label="Prise de force">
-          	
+
+			<md-list >
+
+			  
+			  <md-list-item (click)="openArticle()" style="background-color: #33FF66;border-style: groove;">
+			  	<!-- Photo miniature de l'article -->
+			    <p md-line><img src="assets/images/recup.jpg"  height="40" width="50"></p>
+			  	<!-- Titre de l'article -->
+			  	<h2 md-header>{{titre}}</h2>
+			    <!-- Date -->
+			    <p md-line>{{date}}</p>
+			  </md-list-item>			
+
+			</md-list>
+			
           </md-tab>
 
-          <md-tab label="Perte de poids">
 
+          <md-tab label="Perte de poids">
+			<md-list >
+
+			  
+			  <md-list-item  (click)="openArticle()" style="background-color: #FF0066  ;border-style: groove;">
+			  	<!-- Photo miniature de l'article -->
+			    <p md-line><img src="assets/images/recup.jpg"  height="40" width="50"></p>
+			  	<!-- Titre de l'article -->
+			  	<h2 md-header>{{titre}}</h2>
+			    <!-- Date -->
+			    <p md-line>{{date}}</p>
+			  </md-list-item>			
+
+			</md-list>
           </md-tab>
 
         </md-tab-group>

@@ -10,14 +10,15 @@ import { DsService } from './services/ds.service';
 })
 export class AppComponent implements OnInit{
 
-username;
+  username;
   text;
   chats;
-
   chatArray = [];
-constructor(public dialog: MdDialog, private ds: DsService) {}
+  connectedUsers = [];
+  constructor(public dialog: MdDialog, private ds: DsService) {}
+  newuser;
 
-// Dialog pour la connexion
+// Dialog pour la connexion ( pop up connexion )
   openDialog(): void {
   let dialogRef = this.dialog.open(AuthentificationComponent, {
   height: '220px',
@@ -25,6 +26,7 @@ constructor(public dialog: MdDialog, private ds: DsService) {}
 });
   }
 
+  // Ajout d'un message au chat
   addChat() {
 
     const recordName = 'chat/' + this.ds.dsInstance.getUid();
@@ -39,14 +41,15 @@ constructor(public dialog: MdDialog, private ds: DsService) {}
   ngOnInit() {
 
 
-
-    // Get username from
-    // window prompt and use 'anonymous' for
-    // null or invalid response
+    // Un username par defaut est attribué
     const defaultUsername = 'anonymous';
+
+    // Recupération de l'username saisie
     const username = window.prompt('Veuillez entrer votre surnom pour le chat instantannée:', defaultUsername);
     
-    this.username = username || defaultUsername
+    // Remplacement du défaut par l'username saisie
+    this.username = username || defaultUsername    
+
     // Login without credentials
     this.ds.login(null, this.loginHandler);
 
@@ -66,6 +69,11 @@ constructor(public dialog: MdDialog, private ds: DsService) {}
       });
     })
 
+    this.updateConnectedUser(this.username);
+  }
+
+  updateConnectedUser(newuser){
+  this.connectedUsers.push(newuser);
   }
 
   loginHandler(success, data) {

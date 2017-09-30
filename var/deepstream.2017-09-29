@@ -1,0 +1,19 @@
+{"event":"INFO","level":"info","message":"logger ready: no dependency description provided","timestamp":"2017-09-29T21:07:16.422Z"}
+{"event":"INFO","level":"info","message":"deepstream version: 3.0.1","timestamp":"2017-09-29T21:07:16.434Z"}
+{"event":"INFO","level":"info","message":"configuration file loaded from conf\\config.yml","timestamp":"2017-09-29T21:07:16.435Z"}
+{"event":"INFO","level":"info","message":"library directory set to: C:\\Users\\Expre\\Desktop\\projetweb\\blogfit\\lib","timestamp":"2017-09-29T21:07:16.436Z"}
+{"event":"INFO","level":"info","message":"storage ready: no storage connector specified","timestamp":"2017-09-29T21:07:16.438Z"}
+{"event":"INFO","level":"info","message":"cache ready: local cache","timestamp":"2017-09-29T21:07:16.439Z"}
+{"event":"INFO","level":"info","message":"authenticationHandler ready: none","timestamp":"2017-09-29T21:07:16.440Z"}
+{"event":"INFO","level":"info","message":"permissionHandler ready: valve permissions loaded from C:\\Users\\Expre\\Desktop\\projetweb\\blogfit\\conf\\permissions.yml","timestamp":"2017-09-29T21:07:16.474Z"}
+{"event":"INFO","level":"info","message":"listening for websocket connections on 0.0.0.0:6020/deepstream","timestamp":"2017-09-29T21:07:16.610Z"}
+{"event":"INFO","level":"info","message":"connectionEndpoint ready: WebSocket Connection Endpoint","timestamp":"2017-09-29T21:07:16.610Z"}
+{"event":"INFO","level":"info","message":"listening for HTTP connections on 0.0.0.0:8080","timestamp":"2017-09-29T21:07:16.614Z"}
+{"event":"INFO","level":"info","message":"connectionEndpoint ready: HTTP Connection Endpoint","timestamp":"2017-09-29T21:07:16.614Z"}
+{"event":"INFO","level":"info","message":"deepstream started","timestamp":"2017-09-29T21:07:16.618Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-29T21:07:53.633Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-29T21:08:16.734Z"}
+{"event":"INCOMING_CONNECTION","level":"info","message":"from undefined (127.0.0.1)","timestamp":"2017-09-29T21:09:25.393Z"}
+{"event":"AUTH_SUCCESSFUL","level":"info","message":"open","timestamp":"2017-09-29T21:09:30.141Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-29T21:10:31.052Z"}
+{"event":"CLIENT_DISCONNECTED","level":"info","message":"open","timestamp":"2017-09-29T21:10:34.364Z"}

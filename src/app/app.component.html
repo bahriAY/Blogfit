@@ -15,7 +15,16 @@
   <!-- Contenu de la page -->
   <div >
     <md-grid-list cols="10" rowHeight="2:1" >
-      <md-grid-tile id="categoriepanel" colspan="3" rowspan="4">1</md-grid-tile>
+
+      <md-grid-tile id="onlineuserspanel" colspan="3" rowspan="4">
+        <div>
+          <ul *ngFor="let user of connectedUsers">
+            <li>{{user}}</li>
+          </ul>
+        </div>
+      </md-grid-tile>
+
+
       <md-grid-tile id="managepanel" colspan="7" rowspan="1">2</md-grid-tile>
 
 
@@ -30,8 +39,11 @@
 
 
       <md-grid-tile id="chatpanel" colspan="3" rowspan="5">
-
+        
         <table>
+          <tr>
+            <p style="color: yellow;"> Bonjour {{username}} </p>
+          </tr>
 
           <tr>
             <div class="ZoneMsg">
