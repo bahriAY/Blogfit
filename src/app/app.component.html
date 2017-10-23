@@ -1,4 +1,4 @@
-<md-toolbar color="primary">
+<md-toolbar color="light">
   <button type="button" md-button (click)="sidenav.open()">Me contacter</button>
    <span class="spacer"></span>
   <md-icon>fitness_center</md-icon><span>BlogFitness</span>
@@ -16,7 +16,7 @@
   <div >
     <md-grid-list cols="10" rowHeight="2:1" >
 
-      <md-grid-tile id="onlineuserspanel" colspan="3" rowspan="4">
+      <md-grid-tile color="light" id="onlineuserspanel" colspan="3" rowspan="4">
         <div>
           <ul *ngFor="let user of connectedUsers">
             <li>{{user}}</li>
@@ -25,7 +25,7 @@
       </md-grid-tile>
 
 
-      <md-grid-tile id="managepanel" colspan="7" rowspan="1">2</md-grid-tile>
+      <md-grid-tile id="managepanel"  colspan="7" rowspan="1">2</md-grid-tile>
 
 
 

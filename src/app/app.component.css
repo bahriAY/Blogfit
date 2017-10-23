@@ -17,16 +17,19 @@ md-sidenav {
 }
 
 #onlineuserspanel {
-	background: #330033  ;
+	background-color: silver;
 }
 #wallpanel {
 	background: white;
+	border-style: groove;
 }
 #chatpanel {
-	background: #330066;
+	background: #FF6633;
+	display: inline-block;
 }
 #managepanel {
-	background: orange;
+	border-style: outset;
+	background-color: silver;
 }
 
 .ZoneMsg {
