@@ -1,3 +1,36 @@
+Ce projet contient juste la partie FRONT-END et une messagerie instantannée.
+
+Nous avions crée cette application statique avec Angular4 mais nous n'avons pas fini la partie Back car nous avions eu du mal à lier Angular4 et Spring. Mais nous la partageons quand même pour montrer la messagerie instantannée et notre test du framework Angular4.
+
+----
+
+Installation et lancement:
+
+Sur Ubuntu:
+
+INSTALLER NPM:
+>sudo apt-get update
+>sudo apt-get install nodejs npm
+
+
+INSTALLER Angular (4.0) CLI:
+>npm install -g @angular/cli
+
+Lancer l'application:
+Aller dans le répértoire du projet et lancer la commande suivante:
+>ng serve
+et dans une nouvelle invite de commandes taper la commander suivante(pour le chat):
+>deepstream start 
+
+
+----
+
+
+
+
+
+
+
 # Blogfit
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.2.
